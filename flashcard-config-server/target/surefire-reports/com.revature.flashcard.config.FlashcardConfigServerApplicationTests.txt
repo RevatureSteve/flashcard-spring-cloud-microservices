@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.revature.flashcard.config.FlashcardConfigServerApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.76 sec - in com.revature.flashcard.config.FlashcardConfigServerApplicationTests
