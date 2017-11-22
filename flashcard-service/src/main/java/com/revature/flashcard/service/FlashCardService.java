@@ -7,7 +7,11 @@ import org.springframework.stereotype.Service;
 
 import com.revature.flashcard.bean.FlashCard;
 import com.revature.flashcard.repo.FlashCardRepo;
-
+/**
+ * 11-22-2017
+ * @author Steve_Revature
+ *
+ */
 @Service
 public class FlashCardService {
 

@@ -3,7 +3,11 @@ package com.revature.flashcard.bean;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-
+/**
+ * 11-22-2017
+ * @author Steve_Revature
+ *
+ */
 @Entity
 public class FlashCard {
 	
