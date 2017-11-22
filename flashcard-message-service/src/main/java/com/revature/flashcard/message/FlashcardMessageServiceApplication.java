@@ -5,7 +5,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.cloud.stream.messaging.Sink;
-
+/**
+ * 11-22-2017
+ * @author Steve_Revature
+ *	
+ *	Spring Cloud Stream with Rabbitmq Messaging Service Application Example
+ *
+ *		2 Projects
+ *			-flashcard business microservice
+ *			-messaging service
+ */
 @EnableBinding(Sink.class)
 @SpringBootApplication
 public class FlashcardMessageServiceApplication {
