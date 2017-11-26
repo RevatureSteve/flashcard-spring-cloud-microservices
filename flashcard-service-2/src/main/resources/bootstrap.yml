@@ -1,3 +1,4 @@
+#flashcard-service2
 spring:
   application:
     name: flashcard-service2

@@ -1,6 +1,4 @@
+#flashcard-service
 spring:
   application:
     name: flashcard-service
-#  cloud:
-#    config:
-#      uri: http://localhost:9000
