@@ -19,24 +19,5 @@ public class FlashCardCtrl {
 		return "Hello MicroService FlashCard";
 	}
 	
-	/*
-	 * 	Using another Microservice using RestTemplate
-	 */
-	@LoadBalanced
-	@Bean
-	public RestTemplate buildRestTemplate(RestTemplateBuilder restTemplateBuilder){
-		return restTemplateBuilder.build();
-	}
-	
-	@Autowired
-	private RestTemplate restTemplate;
-	
-	@GetMapping("/getFc")
-	public FlashCard getFc(){
-		System.out.println("Request to FlashCardCtrl /getFc");
-		String url = "http://flashcard-service2/fc";
-		FlashCard fc = restTemplate.getForObject(url, FlashCard.class);
-		System.out.println(fc + " from flashcard-service2");
-		return fc;
-	}
+
 }
