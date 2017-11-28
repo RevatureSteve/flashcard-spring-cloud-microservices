@@ -1,0 +1,11 @@
+server.contextPath: /auth
+logging:
+ level:
+   org.springframework.security: DEBUG
+server:
+ port: 8090
+keystore:
+ password: mySecretKey
+spring:
+  mvc:
+    dispatchOptionsRequest: true
