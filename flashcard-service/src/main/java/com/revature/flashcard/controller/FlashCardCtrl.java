@@ -34,9 +34,9 @@ public class FlashCardCtrl {
 	@GetMapping("/getFc")
 	public FlashCard getFc(){
 		System.out.println("Request to FlashCardCtrl /getFc");
-		String url = "http://flashcard-service2/fc";
+		String url = "http://flashcard-service-2/fc";
 		FlashCard fc = restTemplate.getForObject(url, FlashCard.class);
-		System.out.println(fc + " from flashcard-service2");
+		System.out.println(fc + " from flashcard-service-2");
 		return fc;
 	}
 }
