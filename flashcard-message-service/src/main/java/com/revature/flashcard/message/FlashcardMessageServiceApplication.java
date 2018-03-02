@@ -38,7 +38,7 @@ public class FlashcardMessageServiceApplication {
 	@StreamListener(target=Sink.INPUT, condition="headers['speed'] > 40")
 	public void logfast(String msg) {
 		System.out.println("fast = " + msg);
-		//return msg;
+//		return msg;
 	}
 	
 	@StreamListener(target=Sink.INPUT, condition="headers['speed'] <= 40")
